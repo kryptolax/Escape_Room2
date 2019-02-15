@@ -1,0 +1,149 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: block;
+	background-image: url("images/backgrounds/cockpit_console.png");
+	background-size: 100% 100%;
+	margin: 0;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.middle-row {
+	height: 57%;
+	width: 100%;
+	display: flex;
+	background-color: #a535c6;
+	opacity: 0.5;
+}
+
+.top-row {
+	height: 22%;
+	width: 100%;
+	display: flex;
+	background-color: #376bcc;
+	opacity: .5;
+}
+
+.bottom-row {
+	height: 21%;
+	width: 100%;
+	display: flex;
+	background-color: #376bcc;
+	opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.column-five-top-ends {
+	height: 100%;
+	width: 22%;
+	display: block;
+	background-color: #00ef53;
+	opacity: .5;
+}
+
+.column-five-top-sides {
+	height: 100%;
+	width: 21%;
+	display: block;
+	background-color: #ef9300;
+	opacity: 1;
+}
+
+.column-five-top-middle {
+	height: 100%;
+	width: 19%;
+	display: block;
+	background-color: #00ef53;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.column-five-middle-ends {
+	height: 100%;
+	width: 19.1%;
+	display: block;
+	background-color: #37cc88;
+	opacity: 1;
+}
+
+.column-five-middle-middle {
+	height: 100%;
+	width: calc(100%/5);
+	display: block;
+	background-color: #37cc88;
+	opacity: 1;
+}
+
+.column-five-middle-sides {
+	height: 100%;
+	width: 20.9%;
+	display: block;
+	background-color: #d81167;
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.column-three-ends {
+	height: 100%;
+	width: calc(100%/3);
+	display: block;
+	background-color: #bf3333;
+	opacity: 1;
+}
+
+.column-three-middle {
+	height: 100%;
+	width: calc(100%/3);
+	display: block;
+	background-color: #11a9d8;
+	opacity: 1;
+}
